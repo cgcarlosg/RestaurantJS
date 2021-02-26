@@ -1,0 +1,23 @@
+{
+  "name": "restaurantjs",
+  "version": "1.0.0",
+  "description": "microverse project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgcarlosg/RestaurantJS.git"
+  },
+  "author": "Carlos Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgcarlosg/RestaurantJS/issues"
+  },
+  "homepage": "https://github.com/cgcarlosg/RestaurantJS#readme",
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
