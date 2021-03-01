@@ -65,7 +65,7 @@ function createMenu() {
     foodDescription.textContent = description;
   
     const foodImage = document.createElement("img");
-    foodImage.src = `images/beans/${name.toLowerCase()}.png`;
+    foodImage.src = `images/beans/${name.toLowerCase()}.jpg`;
     foodImage.alt = `${name}`;
   
     menuItem.appendChild(foodImage);
