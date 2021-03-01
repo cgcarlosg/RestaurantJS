@@ -1,1 +1,3 @@
-alert("helo")
+import initializeWebsite from "./website";
+
+initializeWebsite();
