@@ -10,9 +10,7 @@
 
 ## Demo Screenshots
 
-![screenshot](screen_1.png)
-![screenshot](screen_2.png)
-![screenshot](screen_3.png)
+![screenshot]()
 
 ## Live Demo
 
