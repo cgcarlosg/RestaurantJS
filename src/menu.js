@@ -1,3 +1,24 @@
+function createMenuItem(name, description) {
+  const menuItem = document.createElement('div');
+  menuItem.classList.add('menu-item');
+
+  const foodName = document.createElement('h2');
+  foodName.textContent = name;
+
+  const foodDescription = document.createElement('p');
+  foodDescription.textContent = description;
+
+  const foodImage = document.createElement('img');
+  foodImage.src = `images/beans/${name.toLowerCase()}.jpg`;
+  foodImage.alt = `${name}`;
+
+  menuItem.appendChild(foodImage);
+  menuItem.appendChild(foodName);
+  menuItem.appendChild(foodDescription);
+
+  return menuItem;
+}
+
 function createMenu() {
   const menu = document.createElement('div');
   menu.classList.add('menu');
@@ -52,27 +73,6 @@ function createMenu() {
   );
 
   return menu;
-}
-
-function createMenuItem(name, description) {
-  const menuItem = document.createElement('div');
-  menuItem.classList.add('menu-item');
-
-  const foodName = document.createElement('h2');
-  foodName.textContent = name;
-
-  const foodDescription = document.createElement('p');
-  foodDescription.textContent = description;
-
-  const foodImage = document.createElement('img');
-  foodImage.src = `images/beans/${name.toLowerCase()}.jpg`;
-  foodImage.alt = `${name}`;
-
-  menuItem.appendChild(foodImage);
-  menuItem.appendChild(foodName);
-  menuItem.appendChild(foodDescription);
-
-  return menuItem;
 }
 
 function loadMenu() {
