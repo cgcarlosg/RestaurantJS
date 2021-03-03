@@ -2,17 +2,14 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 
-function createHeader() {
-  const header = document.createElement('header');
-  header.classList.add('header');
+const header = document.createElement('header');
 
+function createHeader() {
+  header.classList.add('header');
   const restaurantName = document.createElement('h1');
   restaurantName.classList.add('restaurant-name');
   restaurantName.textContent = 'Frijolada';
-
   header.appendChild(restaurantName);
-  header.appendChild(createNav());
-
   return header;
 }
 
@@ -99,6 +96,7 @@ function initializeWebsite() {
   content.appendChild(createHeader());
   content.appendChild(createMain());
   content.appendChild(createFooter());
+  header.appendChild(createNav());
 
   setActiveButton(document.querySelector('.button-nav'));
   loadHome();
