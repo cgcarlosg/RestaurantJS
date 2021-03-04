@@ -4,7 +4,7 @@ import loadContact from './contact';
 
 const header = document.createElement('header');
 
-function createHeader() {
+const createHeader = () => {
   header.classList.add('header');
   const restaurantName = document.createElement('h1');
   restaurantName.classList.add('restaurant-name');
@@ -13,7 +13,7 @@ function createHeader() {
   return header;
 }
 
-function setActiveButton(button) {
+const setActiveButton = (button) => {
   const buttons = document.querySelectorAll('.button-nav');
 
   buttons.forEach((button) => {
@@ -25,7 +25,7 @@ function setActiveButton(button) {
   button.classList.add('active');
 }
 
-function createNav() {
+const createNav = () => {
   const nav = document.createElement('nav');
 
   const homeButton = document.createElement('button');
@@ -62,14 +62,14 @@ function createNav() {
   return nav;
 }
 
-function createMain() {
+const createMain = () => {
   const main = document.createElement('main');
   main.classList.add('main');
   main.setAttribute('id', 'main');
   return main;
 }
 
-function createFooter() {
+const createFooter = () => {
   const footer = document.createElement('footer');
   footer.classList.add('footer');
 
@@ -90,7 +90,7 @@ function createFooter() {
   return footer;
 }
 
-function initializeWebsite() {
+const initializeWebsite = () => {
   const content = document.getElementById('content');
 
   content.appendChild(createHeader());
