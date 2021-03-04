@@ -12,10 +12,6 @@
 
 ![screenshot](https://github.com/cgcarlosg/RestaurantJS/blob/featuretwo/dist/images/screen1.jpg)
 
-## Live Demo
-
-[Live version](https://cgcarlosg.github.io/RestaurantJS/.)
-
 ## Prerequisites
 
 node: v12.19.0
