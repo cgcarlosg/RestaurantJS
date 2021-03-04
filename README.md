@@ -10,7 +10,11 @@
 
 ## Demo Screenshots
 
-![screenshot](https://github.com/cgcarlosg/RestaurantJS/blob/featuretwo/dist/images/screen1.jpg)
+![screenshot]()
+
+## Live Demo
+
+[Live version]()
 
 ## Prerequisites
 
