@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+# Restaurant Landing page
 
-You can use the [editor on GitHub](https://github.com/cgcarlosg/RestaurantJS/edit/development/README.md) to maintain and preview the content for your website in Markdown files.
+>  This project is the practice for DOM manipulation with JavaScript and Webpack. This project is A landing page for a restaurant where you can visit and see the menu that is available on the restaurant, also you can see a map where the restaurant is located.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Built With
 
-### Markdown
+- Webpack
+- VS Code
+- JavaScript
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Demo Screenshots
 
-```markdown
-Syntax highlighted code block
+![screenshot](https://github.com/cgcarlosg/RestaurantJS/blob/featuretwo/dist/images/screen1.jpg)
 
-# Header 1
-## Header 2
-### Header 3
+## Prerequisites
 
-- Bulleted
-- List
+node: v12.19.0
 
-1. Numbered
-2. List
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-**Bold** and _Italic_ and `Code` text
+- Open a terminal or command prompt interface on your PC.
+- Clone the repo with: git clone https://github.com/cgcarlosg/RestaurantJS.git
+- On the terminal navigate to the project directory using cd /restaurant_page
+- open the folder
+- double click index.html
+- Here comes the website on the local machine.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Author
 
-### Jekyll Themes
+👤 **Carlos Gutierrez**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cgcarlosg/RestaurantJS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- GitHub:  [@cgcarlosg](https://github.com/cgcarlosg)
+- Twitter: [@cgcarlosg1](https://twitter.com/cgcarlosg1)
+- LinkedIn: [@carlosalbeniogutierrez](www.linkedin.com/in/carlosalbeniogutierrez)
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/sumon0002001/restaurant_page/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## :grey_exclamation: Acknowledgments
+
+- Stack Overflow
+- Odin Project.
+
+## 📝 License
+
+[MIT LICENSE](LICENSE)
