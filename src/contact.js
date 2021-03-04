@@ -17,12 +17,12 @@ const createContact = () => {
   contact.appendChild(restaurantLocation);
 
   return contact;
-}
+};
 
 const loadContact = () => {
   const main = document.getElementById('main');
   main.textContent = '';
   main.appendChild(createContact());
-}
+};
 
 export default loadContact;

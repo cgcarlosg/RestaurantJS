@@ -11,7 +11,7 @@ const createHeader = () => {
   restaurantName.textContent = 'Frijolada';
   header.appendChild(restaurantName);
   return header;
-}
+};
 
 const setActiveButton = (button) => {
   const buttons = document.querySelectorAll('.button-nav');
@@ -23,7 +23,7 @@ const setActiveButton = (button) => {
   });
 
   button.classList.add('active');
-}
+};
 
 const createNav = () => {
   const nav = document.createElement('nav');
@@ -60,14 +60,14 @@ const createNav = () => {
   nav.appendChild(contactButton);
 
   return nav;
-}
+};
 
 const createMain = () => {
   const main = document.createElement('main');
   main.classList.add('main');
   main.setAttribute('id', 'main');
   return main;
-}
+};
 
 const createFooter = () => {
   const footer = document.createElement('footer');
@@ -88,7 +88,7 @@ const createFooter = () => {
   footer.appendChild(githubLink);
 
   return footer;
-}
+};
 
 const initializeWebsite = () => {
   const content = document.getElementById('content');
@@ -100,6 +100,6 @@ const initializeWebsite = () => {
 
   setActiveButton(document.querySelector('.button-nav'));
   loadHome();
-}
+};
 
 export default initializeWebsite;

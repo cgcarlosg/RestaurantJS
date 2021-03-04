@@ -2,7 +2,7 @@ const createParagraph = (text) => {
   const paragraph = document.createElement('p');
   paragraph.textContent = text;
   return paragraph;
-}
+};
 
 const createHome = () => {
   const home = document.createElement('div');
@@ -18,12 +18,12 @@ const createHome = () => {
   home.appendChild(createParagraph('Order online or visit us!'));
 
   return home;
-}
+};
 
 const loadHome = () => {
   const main = document.getElementById('main');
   main.textContent = '';
   main.appendChild(createHome());
-}
+};
 
 export default loadHome;

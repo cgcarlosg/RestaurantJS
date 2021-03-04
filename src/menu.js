@@ -17,7 +17,7 @@ const createMenuItem = (name, description) => {
   menuItem.appendChild(foodDescription);
 
   return menuItem;
-}
+};
 
 const createMenu = () => {
   const menu = document.createElement('div');
@@ -73,12 +73,12 @@ const createMenu = () => {
   );
 
   return menu;
-}
+};
 
 const loadMenu = () => {
   const main = document.getElementById('main');
   main.textContent = '';
   main.appendChild(createMenu());
-}
+};
 
 export default loadMenu;
