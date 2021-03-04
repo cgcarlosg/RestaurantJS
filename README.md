@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live version]()
+[Live version](https://cgcarlosg.github.io/RestaurantJS/)
 
 ## Prerequisites
 
