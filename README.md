@@ -10,7 +10,7 @@
 
 ## Demo Screenshots
 
-![screenshot]()
+![screenshot](https://github.com/cgcarlosg/RestaurantJS/blob/featuretwo/dist/images/screen1.jpg)
 
 ## Live Demo
 
